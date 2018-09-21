@@ -1,0 +1,183 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{scrextend}
+\usepackage{fontawesome}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}{
+  \item\small{
+    { \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-1pt}
+}
+
+\newcommand{\resumeSubItem}{\resumeItem\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{rkhal101.github.io}{\Huge Rana Khalil}} & \href{mailto:rkhal101@uottawa.ca}{\vspace{1pt}rkhal101@uottawa.ca \faEnvelopeO }\\
+  \href{https://rkhal101.github.io/}{https://rkhal101.github.io/} &  \href{https://www.linkedin.com/in/ranakhalil1/}{linkedin.com/in/ranakhalil1 \faLinkedin} \\ & \href{https://github.com/rkhal101}{github.com/rkhal101 \faGithub} \\ &
+  \href{https://twitter.com/rana\_\_khalil}{twitter.com/rana\_\_khalil \faTwitter}
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Master of Computer Science - Thesis Option (2018)}{University of Ottawa}
+      {Thesis: Comparative Analysis of Open-source Black-box Web Vulnerability Scanners.}{}
+    \resumeSubheading
+      {Joint Honors Mathematics and Computer Science (2016)}{University of Ottawa}
+      {Honours Project: Scale Invariant Fully Homomorphic Encryption Over the Integers.}{}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {University of Ottawa}{Ottawa, ON}
+      {Teaching Assistant}{Sept. 2016 - Aug. 2018}
+      \begin{addmargin}[1em]{0em}% 1em left, 2em right
+      \small{Taught weekly lab/tutorial sessions, held weekly office hours, marked theory and programming assignments and proctored midterms and final exams. Courses taught include Data Structures (CSI2110), Discrete Structures (CSI2101), Databases I (CSI2132) and WWW Structures, Techniques and Standards (CSI3140).}
+      \end{addmargin}
+      
+    %\resumeSubheading
+    %  {Innovation, Science and Economic Development Canada}{Ottawa, ON}
+    %  {Software Developer}{Jan. 2017 - Apr. 2016}
+    %  \begin{addmargin}[1em]{0em}% 1em left, 2em right
+    %  \small{Developed several programs in Python that validate decisions made by the FCC for re-purposing the 600 MHz band. Integrated these programs into available interface.}
+    %  \end{addmargin}
+      
+    \resumeSubheading
+      {Trend Micro and NSERC}{Ottawa, ON}
+      {Ransomware Researcher}{Oct. 2016 - Apr. 2017}
+      \begin{addmargin}[1em]{0em}% 1em left, 2em right
+      \small{Performed dynamic and static analysis using IDA Pro and Volatility on a specific type of ransomware. Identified the given ransomware functionality and properties for detection and recommended countermeasures to mitigate risk. Produced a technical analysis report summarizing malware analysis results.} 
+      \end{addmargin}
+      
+    \resumeSubheading
+      {2Keys}{Ottawa, ON}
+      {Junior Software Developer / Security Analyst }{Jan. 2016 - Aug. 2016}
+      \begin{addmargin}[1em]{0em}% 1em left, 2em right
+      \small{Developed and maintained a test suite in Java that ensured the given web application performs properly according to design specifications. Conducted penetration testing / vulnerability assessment on the web application. Created and delivered security training on techniques in ethical hacking using Burp Suite.}
+      \end{addmargin}
+      
+    \resumeSubheading
+      {Innovation, Science and Economic Development (ISED) Canada}{Ottawa, ON}
+      {Software Developer}{May 2015 - Dec. 2015}
+      \begin{addmargin}[1em]{0em}% 1em left, 2em right
+      \small{Developed a test suite in PostgreSQL and Python to validate decisions made by the FCC for re-purposing the 600 MHz band. Created an interface in HTA to incorporate the validation programs for easier use.}
+      \end{addmargin}
+      
+    \resumeSubheading
+      {Canada Revenue Agency (CRA)}{Ottawa, ON}
+      {Tester}{May 2013 - Aug. 2013}
+      \begin{addmargin}[1em]{0em}% 1em left, 2em right
+      \small{Designed and executed test cases for the Cost Management \& Estimating Tool for Solutions (CoMETS) web application. Participated in an agile approach in developing functional requirements for the design of CoMETS application. Documented user guides and reference sheets to facilitate easier use of the application. Created and delivered training on IBM Rational Functional Tester (RFT) that included a tutorial manual, videos and demos to colleagues.}
+      \end{addmargin}
+  \resumeSubHeadingListEnd
+
+  
+%---------TECHNICAL SKILLS------------------
+\section{Technical Skills}
+\textbf{Programming Languages:} Java, JavaScript, Python, HTML, CSS, PostgreSQL, Bash, LaTeX.\\
+\textbf{Tools:}  Burp Suite, OWASP ZAP, Arachni, skipfish, Vega, Wapiti, BeEF, NMap, tcpdump, John the Ripper.
+
+\section{Leadership Roles}
+  \resumeSubHeadingListStart
+  \vspace{4px}
+    \resumeSubItem
+      {\textbf{Vice Chair} $\vert$ UOMSA Orphan Sponsorship Initiative \null\hfill \it{2016}} 
+    \resumeSubItem
+      {\textbf{Peer Mentor} $\vert$ Women Startup Network \null\hfill \it{2015}}
+    \resumeSubItem
+      {\textbf{VP Academic} $\vert$ IEEE University of Ottawa Student Branch \null\hfill \it{2014}}
+    \resumeSubItem
+      {\textbf{Vice Chair} $\vert$ IEEE University of Ottawa Student Branch Women in Engineering (WIE) \null\hfill \it{2013}}
+  \resumeSubHeadingListEnd
+
+
+%---------SCHOLARSHIPS AND CERTIFICATES-----
+\begin{comment}
+\section{Scholarships and Certificates}
+\begin{itemize}
+    \item Seeds for the Future 2017 - Huawei Canada
+    \item Women Startup Network Peer Mentorship Award
+    \item Undergraduate Research Opportunity Program (UROP) Scholarship Award
+    \item University of Ottawa Admission Scholarship
+\end{itemize}
+\end{comment}
+\begin{comment}
+\tiny \textcolor{white}{knowledge of networking and operating systems (Linux and Windows), configuration and administration
+experience using security scanning tools (e.g., Nmap, Nessus, Nexpose, etc.)
+in-depth understanding of technical vulnerability assessment and penetration testing (automated and manual tools and methodology)
+knowledge of web application security concepts, as well as testing tools and methodology
+understanding of secure code development principles and practices
+coding and scripting experience}
+\end{comment}
+
+\end{document}
